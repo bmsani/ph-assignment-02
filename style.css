@@ -1,0 +1,25 @@
+/* --------------
+-----Fonts -----*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:wght@500;700&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+ */
+
+
+
+/* comon style or utilites */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-width{
+    width: 1200px;
+}
