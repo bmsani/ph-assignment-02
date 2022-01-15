@@ -89,6 +89,11 @@ main{
         color: white;
         border-radius: 50px;
        line-height: 4.5em;
+       
+    }
+    .button:hover{
+        transition: box-shadow .2s;
+        box-shadow: 0 10px 20px black;
     }
 .banner-image-aria{
 background-image: url(images/Circle\ design.svg);
@@ -231,6 +236,10 @@ footer{
 @media only screen and (min-width: 768px) and (max-width: 991.5px){
     .price-cards-aria{
         grid-template-columns: repeat(2, 1fr);
+        
+    }
+    h1{
+        font-size: 36px;
         
     }
 }
