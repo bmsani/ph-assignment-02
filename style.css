@@ -55,7 +55,7 @@ main{
 .banner{
     display: grid;
     grid-template-columns: 1.3fr 1fr;
-    grid-column-gap: 5%;
+    gap: 30px;
     align-items: center;
     margin-bottom: 100px;
     
