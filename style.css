@@ -1,6 +1,6 @@
 /* --------------
 -----Fonts -----*/
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:wght@500;600;700&display=swap');
 
 /*
 font-family: 'Inter', sans-serif;
@@ -16,10 +16,122 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
+    width: 85vw;
+    margin: 0 auto;
+}
+h1{
+    font-size: 46px;
+    
+}
+/* .container-width{
+    width: 1200px;
+} */
+
+/* Header aria design */
+header{
+}
+
+
+
+/* Main aria Design */
+main{
+    height: auto;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-column-gap: 5%;
+    align-items: center;
+    margin-bottom: 100px;
+    
+    }
+    .banner-text-aria{
+        
+    }
+    .button{
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #E02C6D;
+        color: white;
+        border-radius: 50px;
+       line-height: 4.5em;
+    }
+.banner-image-aria{
+background-image: url(images/Circle\ design.svg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner-image-aria img{
+    width: 100%;
+}
+.cards-section h2{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.price-cards-aria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.price-card{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 5px #AAAAAA;
+}
+.price-card img{
+    width: 100%;
+}
+.price-card h3{
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+.price-card h4{
+    font-family: 'Lobster', cursive;
+    margin: 5px 0;
+}
+.filled{
+    color: #F4531C;
+}
+.half-filled{
+    color: #F4531C;
+}
+.more-card-button{
+    display: block;
+    text-align: right;
+    padding: 20px 5px;
+}
+.more-card-button a{
+    text-decoration: none;
+    color: #F4531C;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* Footer aria  */
+
+.footer-copyright {
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 0;
+    color: white;
+}
+.footer-copyright h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.social-icon{
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
-.container-width{
-    width: 1200px;
+.social-icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 0 10px;
 }
