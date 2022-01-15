@@ -72,8 +72,16 @@ main{
     
     }
     .banner-text-aria{
-        
+        position: relative;
+  animation-name: move-1;
+  animation-duration: 3s;
     }
+    @keyframes move-1 {
+        0%   {right:800px; top:0px;}
+        
+        100% {right:0px; top:0px;}
+        
+      }
     .button{
         text-decoration: none;
         padding: 10px 20px;
@@ -86,7 +94,16 @@ main{
 background-image: url(images/Circle\ design.svg);
 background-repeat: no-repeat;
 background-size: cover;
+position: relative;
+  animation-name: move-2;
+  animation-duration: 3s;
 }
+@keyframes move-2 {
+    0%   {left: 800px; top:0px;}
+    
+    100% {left: 0px; top:0px;}
+    
+  }
 .banner-image-aria img{
     width: 100%;
 }
@@ -164,6 +181,44 @@ footer{
     padding: 0 10px;
 }
 
+/* support section design */
+.support{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.support-text{
+    flex: 1;
+    text-align: center;
+}
+.form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.support-form{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.support-form input, button{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#form-comment{
+    padding-bottom: 50px ;
+}
+.submit-button{
+    background-color: #F4531C;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 /* Responsive Style */
 
@@ -182,6 +237,9 @@ footer{
 
 /* Mobile Device */
 @media only screen and (max-width: 767.5px){
+    .navbar ul{
+        display: none;
+    }
     .banner{
         grid-template-columns: 1fr;
         text-align: center;
@@ -193,5 +251,11 @@ footer{
     .price-cards-aria{
         grid-template-columns: repeat(1, 1fr);
         
+    }
+    .support{
+        flex-direction: column;
+    }
+    .support-text h2{
+        margin: 20px 0;
     }
 }
