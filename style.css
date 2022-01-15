@@ -60,44 +60,40 @@ main{
     margin-bottom: 100px;
     
     }
-    .banner-text-aria{
-        position: relative;
-  animation-name: move-1;
-  animation-duration: 3s;
-    }
-    @keyframes move-1 {
-        0%   {right:800px; top:0px;}
-        
-        100% {right:0px; top:0px;}
-        
-      }
-    .button{
-        text-decoration: none;
-        padding: 10px 20px;
-        background-color: #E02C6D;
-        color: white;
-        border-radius: 50px;
-       line-height: 4.5em;
-       
-    }
-    .button:hover{
-        transition: box-shadow .2s;
-        box-shadow: 0 10px 20px black;
-    }
+.banner-text-aria{
+    position: relative;
+    animation-name: move-1;
+    animation-duration: 3s;
+}
+@keyframes move-1 {
+    0%   {right:800px; top:0px;}
+    100% {right:0px; top:0px;}
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 50px;
+    line-height: 4.5em;      
+}
+
+.button:hover{
+    transition: box-shadow .2s;
+    box-shadow: 0 10px 20px black;
+}
 .banner-image-aria{
-background-image: url(images/Circle\ design.svg);
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-  animation-name: move-2;
-  animation-duration: 3s;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: move-2;
+    animation-duration: 3s;
 }
 @keyframes move-2 {
     0%   {left: 800px; top:0px;}
-    
     100% {left: 0px; top:0px;}
-    
-  }
+}
 .banner-image-aria img{
     width: 100%;
 }
@@ -149,6 +145,8 @@ position: relative;
 
 
 /* Footer aria  */
+
+
 footer{
     padding: 0;
 }
